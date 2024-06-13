@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pré-matricula</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <div id="header"></div>
+
+    <main class="pre-cadastro">
+
+        <div class="container">
+            <h1>Formulário de Pré-cadastro</h1>
+            <form>
+                <fieldset>
+                    <legend>Informações Pessoais</legend>
+                    <div class="column">
+                        <label for="firstName">Nome:</label>
+                        <input type="text" id="firstName" name="firstName" required>
+
+                        <label for="lastName">Sobrenome:</label>
+                        <input type="text" id="lastName" name="lastName" required>
+
+                        <label for="dob">Data de Nascimento:</label>
+                        <input type="date" id="dob" name="dob" required>
+
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="phone">Telefone:</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="column">
+                        <label for="address">Endereço:</label>
+                        <input type="text" id="address" name="address" required>
+
+                        <label for="city">Cidade:</label>
+                        <input type="text" id="city" name="city" required>
+
+                        <label for="state">Estado:</label>
+                        <input type="text" id="state" name="state" required>
+
+                        <label for="zip">CEP:</label>
+                        <input type="text" id="zip" name="zip" required>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Informações Acadêmicas</legend>
+                    <div class="column">
+                        <label for="highSchool">Escola Secundária:</label>
+                        <input type="text" id="highSchool" name="highSchool" required>
+
+                        <label for="graduationYear">Ano de Graduação:</label>
+                        <input type="text" id="graduationYear" name="graduationYear" required>
+
+                        <label for="desiredCourse">Curso Desejado:</label>
+                        <input type="text" id="desiredCourse" name="desiredCourse" required>
+                    </div>
+                    <div class="column">
+                        <label for="studyMode">Modo de Estudo:</label>
+                        <select id="studyMode" name="studyMode" required>
+                            <option value="presencial">Presencial</option>
+                            <option value="online">Online</option>
+                            <option value="semiPresencial">Semi-presencial</option>
+                        </select>
+
+                        <label for="language">Idioma Preferido:</label>
+                        <input type="text" id="language" name="language" required>
+
+                        <label for="previousStudies">Estudos Anteriores:</label>
+                        <textarea id="previousStudies" name="previousStudies" rows="4" cols="50"></textarea>
+
+                        <label for="additionalInfo">Informações Adicionais:</label>
+                        <textarea id="additionalInfo" name="additionalInfo" rows="4" cols="50"></textarea>
+                    </div>
+                </fieldset>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+
+
+    </main>
+
+    <div id="footer"></div>
+
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>

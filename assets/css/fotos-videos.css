@@ -1,0 +1,37 @@
+.fotos{
+    display: flex;
+    margin: 40px auto 0 auto;
+}
+
+.fotos .box-img{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.fotos .box-img img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.fotos .box-img img:hover{
+    opacity: 0.8;
+    transform: scale(1.04);
+    transition: 0.3s ease;
+}
+
+.video{
+    display: flex;
+    margin-top: 40px;
+}
+
+.video video{
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

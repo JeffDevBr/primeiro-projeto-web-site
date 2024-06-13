@@ -1,0 +1,12 @@
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.background{
+    background-color: #ededed;
+}
+
+.padding10{
+    padding: 10px;
+}
