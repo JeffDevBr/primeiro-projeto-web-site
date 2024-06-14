@@ -19,18 +19,27 @@
 }
 
 
-@media (max-width: 750px) {
-    .main-header{
-        height: auto;
-        flex-direction: column;
+.btn-menu{
+    display: none;
+}
+
+@media (max-width: 800px) {
+    .main-header-content-menu{
+        display: none;
+        
     }
 
-    .main-header-content-menu ul{
-        flex-direction: column;
-    }
-
-    .main-header-content-menu ul li{
-        margin: 15px;
+    .btn-menu{
+        display: flex;
+        border: none;
+        outline: none;
+        background-color: transparent;
+        cursor: pointer;
+        
+        & img{
+            width: 40px;
+            margin-right: 20px;
+        }
     }
 
 }

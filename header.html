@@ -1,7 +1,12 @@
-    <header class="main-header container">
-        <a href="#"><img src="assets/img/logo.png" alt="Logo UNES"></a>
+<div id="drawer">
+    <div class="overlay" data-drawer="toogle"></div>
+    <div class="body">
+        <header>
+            <a href="#"><img class="logo" src="assets/img/logo.png" alt="Logo UNES"></a>
 
-        <nav class="main-header-content-menu">
+            <button data-drawer="close" class="btn-close"><img src="assets/img/icons/icon-close.svg" alt="Icon Close"></button>
+        </header>         
+        <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="quem-somos.html">Quem Somos</a></li>
@@ -11,4 +16,21 @@
                 <li><a href="pre-matricula.html">Pré-Matricula</a></li>
             </ul>
         </nav>
-    </header>
+    </div>
+</div>
+
+<header class="main-header container">
+    <a href="#"><img src="assets/img/logo.png" alt="Logo UNES"></a>
+
+    <button data-drawer="open" class="btn-menu"><img src="assets/img/icons/menu.svg" alt="Icon Menu"></button>
+    <nav class="main-header-content-menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="quem-somos.html">Quem Somos</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="cursos.html">Cursos</a></li>
+            <li><a href="fotos-videos.html">Fotos e Vídeos</a></li>
+            <li><a href="pre-matricula.html">Pré-Matricula</a></li>
+        </ul>
+    </nav>
+</header>
